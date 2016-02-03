@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private FragmentPagerAdapter mAdapterViewPager;
     private ViewPager mViewPager;
     private PagerSlidingTabStrip mTabStrip;
-    private static String[] TAB_TITLE = {"Library","Playlists","Playing Queue"};
+    private static String[] TAB_TITLE = {"Library","Lists","Queue"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
